@@ -1,0 +1,101 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('image.png');
+
+}
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 80vh;
+    background-color:darkslategrey;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+.zone-text{
+    width: 90%;
+    height: 30vh;
+    border-radius: 20px;
+    background-color:lightsteelblue;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 30px;
+    text-align: right;
+
+
+}
+
+.clavier{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boutons{
+    display: flex;
+    margin: 5px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+
+.btn-number{
+    border-radius: 8px;
+    width: 60px;
+    height: 50px;
+    padding: 8px;
+    margin: 10px;
+    background-color:chocolate;
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+.btn-op{
+    border-radius: 8px;
+    width: 65px;
+    height: 50px;
+    padding: 8px;
+    margin: 10px;
+    background-color: green;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.btn-speciaux{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    
+}
+
+
+.btn-sp{
+    margin-left: 15px;
+    width: 80px;
+    height: 50px;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: chocolate;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+
